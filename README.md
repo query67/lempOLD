@@ -8,3 +8,5 @@ install Lemp on linux server
 
 ## phpMyAdmin
 
+
+### admin@lemp.info
