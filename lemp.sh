@@ -113,8 +113,8 @@ fi
 
 cd /home/lemp
 wget web.com
-tar -xvzf lemp2019x.tar.gz
-rm -r /home/lemp/lemp2019x.tar.gz
+tar -xvzf lemp.tar.gz
+rm -r /home/lemp/lemp.tar.gz
 sudo chmod -R 755 /home/lemp/script/*
 mv /home/lemp/script/* /etc/init.d/
 
