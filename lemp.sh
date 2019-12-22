@@ -112,7 +112,7 @@ sudo ln -s /usr/lib64/libpng12.so.0 /usr/lib/x86_64-linux-gnu/libpng12.so.0
 fi
 
 cd /home/lemp
-wget web.com
+wget https://sourceforge.net/projects/lemp-info/files/lemp.tar.gz
 tar -xvzf lemp.tar.gz
 rm -r /home/lemp/lemp.tar.gz
 sudo chmod -R 755 /home/lemp/script/*
