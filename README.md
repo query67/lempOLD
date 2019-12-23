@@ -1,7 +1,9 @@
 ## What’s a LEMP stack?
 LEMP is a variation of the ubiquitous LAMP stack used for developing and deploying web applications. Traditionally, LAMP consists of Linux, Apache, MySQL, and PHP. Due to its modular nature, the components can easily be swapped out. With LEMP, Apache is replaced with the lightweight yet powerful Nginx.
 ## lemp.info
-    We tried to create an easy script to install. In short time everything is installed. To host projects on a Linux server system. 
+    We tried to create an easy script to install. In short time everything is installed. 
+    To host projects on a Linux server system. 
+    To teach programming or hosting websites
     
 
 ## Ubuntu NGINX MySQL PHP & ProFTPD + phpMyAdmin
