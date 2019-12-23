@@ -31,4 +31,5 @@ LEMP is a variation of the ubiquitous LAMP stack used for developing and deployi
      password: lemp password
      
 ### www.lemp.info
+### www.nginxfriends.org
 ### admin@lemp.info
