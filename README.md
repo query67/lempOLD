@@ -7,8 +7,13 @@ LEMP is a variation of the ubiquitous LAMP stack used for developing and deployi
 ## install:
      wget https://raw.githubusercontent.com/lemp-info/lemp/master/lemp.sh && chmod a+x lemp.sh && ./lemp.sh
      
+## Path
+     Lemp: /home/lemp
+     www: /home/lemp/www 
+     
+     
  ## Usage: 
-phpMyAdmin  /etc/init.d/lemp {start|stop|restart|status}
+     sudo /etc/init.d/lemp {start|stop|restart|status}
      sudo /etc/init.d/nginx   {start|stop|restart|status}
      sudo /etc/init.d/php     {start|stop|restart|status}
      sudo /etc/init.d/mysql   {start|stop|restart|status}
