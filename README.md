@@ -7,7 +7,7 @@ LEMP is a variation of the ubiquitous LAMP stack used for developing and deployi
     PHP     Version 7.2.19
     MySQL   Version 5.5.62 
     ProFTPD Version 1.3.5
-
+    phpmyadmin Version 4.9.1 
 ## install:
      wget https://raw.githubusercontent.com/lemp-info/lemp/master/lemp.sh && chmod a+x lemp.sh && ./lemp.sh
      
