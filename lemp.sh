@@ -86,20 +86,20 @@ apt-get install -y --force-yes libaio1
 apt-get install -y --force-yes libaio-de
 
 if [ "$osrelease" == "16.04"  ] ; then 
-sudo apt-get install libfile-copy-recursive-perl
+sudo apt-get install  -y --force-yes libfile-copy-recursive-perl
 sleep 1
-sudo apt-get install sysstat  
+sudo apt-get install  -y --force-yes sysstat  
 fi
 
 if [ "$osrelease" = "18.04" ] || [ "$osrelease" = "19.04" ]; then
-sudo apt-get install libfile-copy-recursive-perl
-sudo apt-get install sysstat 
+sudo apt-get install  -y --force-yes libfile-copy-recursive-perl
+sudo apt-get install -y --force-yes sysstat 
 wget -q -O /tmp/libpng12.deb http://mirrors.kernel.org/ubuntu/pool/main/libp/libpng/libpng12-0_1.2.54-1ubuntu1_amd64.deb && dpkg -i /tmp/libpng12.deb   && rm /tmp/libpng12.deb   
 fi
 
 sleep 1
 if [ "$osrelease" == "19.04" ] ; then 
-sudo apt-get install libncurses5  
+sudo apt-get install -y --force-yes libncurses5
 sudo apt-get remove -y libcurl4  
 wget http://download-ib01.fedoraproject.org/pub/fedora/linux/releases/29/Everything/x86_64/os/Packages/l/libpng12-1.2.57-8.fc29.x86_64.rpm -P /root    
 wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl1.0/libssl1.0.0_1.0.2n-1ubuntu5_amd64.deb -P /root  
