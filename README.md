@@ -2,7 +2,7 @@
 LEMP is a variation of the ubiquitous LAMP stack used for developing and deploying web applications. Traditionally, LAMP consists of Linux, Apache, MySQL, and PHP. Due to its modular nature, the components can easily be swapped out. With LEMP, Apache is replaced with the lightweight yet powerful Nginx.
 
 
-## Ubuntu NGINX MySQL PHP & phpmyadmin + ProFTPD
+## Ubuntu NGINX MySQL PHP & ProFTPD + phpMyAdmin
     nginx   Version 1.13.11
     PHP     Version 7.2.19
     MySQL   Version 5.5.62 
