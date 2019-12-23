@@ -35,4 +35,3 @@ LEMP is a variation of the ubiquitous LAMP stack used for developing and deployi
 ### admin@lemp.info
 
 ### Donation 
-    https://payleq8.com/en/Paylegateway/buyerperchase/fc844bf0e2e5062e2e1671772feea899c1edd2ff
