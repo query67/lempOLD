@@ -3,8 +3,7 @@ LEMP is a variation of the ubiquitous LAMP stack used for developing and deployi
 ## lemp.info
     We tried to create an easy script to install. In short time everything is installed. 
     To host projects on a Linux server system. 
-    To teach programming or hosting websites
-    
+    Our goal is to teach programming and web hosting    
 
 ## Ubuntu NGINX MySQL PHP & ProFTPD + phpMyAdmin
     nginx   Version 1.13.11
