@@ -86,13 +86,13 @@ apt-get install -y --force-yes libaio1
 apt-get install -y --force-yes libaio-de
 
 if [ "$osrelease" == "16.04"  ] ; then 
-sudo apt-get install  -y --force-yes libfile-copy-recursive-perl
+sudo apt-get install -y --force-yes libfile-copy-recursive-perl
 sleep 1
-sudo apt-get install  -y --force-yes sysstat  
+sudo apt-get install -y --force-yes sysstat  
 fi
 
 if [ "$osrelease" = "18.04" ] || [ "$osrelease" = "19.04" ]; then
-sudo apt-get install  -y --force-yes libfile-copy-recursive-perl
+sudo apt-get install -y --force-yes libfile-copy-recursive-perl
 sudo apt-get install -y --force-yes sysstat 
 wget -q -O /tmp/libpng12.deb http://mirrors.kernel.org/ubuntu/pool/main/libp/libpng/libpng12-0_1.2.54-1ubuntu1_amd64.deb && dpkg -i /tmp/libpng12.deb   && rm /tmp/libpng12.deb   
 fi
