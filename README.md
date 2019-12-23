@@ -20,9 +20,15 @@ LEMP is a variation of the ubiquitous LAMP stack used for developing and deployi
      sudo /etc/init.d/proftpd {start|stop|restart|status}
      
 ## phpMyAdmin
-     http://ipadress/phpmyadmin
+     http://ipaddress/phpmyadmin
      username: root
      password: mysql password
-   
+        
+## how to login to proftpd server ( FTP )
+     1. set password for user lemp: sudo passwd lemp
+     2. ftp://ipadderss/ 
+     username: lemp
+     password: lemp password
+     
 ### www.lemp.info
 ### admin@lemp.info
